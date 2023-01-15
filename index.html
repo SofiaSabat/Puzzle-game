@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="inner-wrapper">
+            <div class="timer-box">
+                <p class="minutes">01:</p>
+                <p class="seconds">00</p>
+            </div>
+            <div class="buttoms-box">
+                <button class="btn" id="start">start game</button>
+                <button class="btn"  id="check">check result</button>
+                <button class="btn" id="new"  >new game</button>
+            </div>
+            <div class="puzzles-box">
+                <div class="from-container container">
+                    <div class="picture n1" id="num-1"></div>
+                    <div class="picture n2" id="num-2"></div>
+                    <div class="picture n3" id="num-3"></div>
+                    <div class="picture n4" id="num-4"></div>
+                    <div class="picture n5" id="num-5"></div>
+                    <div class="picture n6" id="num-6"></div>
+                    <div class="picture n7" id="num-7"></div>
+                    <div class="picture n8" id="num-8"></div>
+                    <div class="picture n9" id="num-9"></div>
+                    <div class="picture n10" id="num-10"></div>
+                    <div class="picture n11" id="num-11"></div>
+                    <div class="picture n12" id="num-12"></div>
+                    <div class="picture n13" id="num-13"></div>
+                    <div class="picture n14" id="num-14"></div>
+                    <div class="picture n15" id="num-15"></div>
+                    <div class="picture n16" id="num-16"></div>
+                </div>
+                <div class="to-container container">
+                    <div class="pic n1"></div>
+                    <div class="pic n2"></div>
+                    <div class="pic n3"></div>
+                    <div class="pic n4"></div>
+                    <div class="pic n5"></div>
+                    <div class="pic n6"></div>
+                    <div class="pic n7"></div>
+                    <div class="pic n8"></div>
+                    <div class="pic n9"></div>
+                    <div class="pic n10"></div>
+                    <div class="pic n11"></div>
+                    <div class="pic n12"></div>
+                    <div class="pic n13"></div>
+                    <div class="pic n14"></div>
+                    <div class="pic n15"></div>
+                    <div class="pic n16"></div>
+                </div>
+            </div>
+            <div class="modal-box ">
+                <div class="check-have-time check hidden">
+                   <p class="text">You still have time, are you sure?</p> 
+                   <p class="time-modal"></p>
+                   <p class="modal-btn">
+                    <button class="redBtn btn" id="close">Close</button>
+                  <button class="greenBtn btn">Check</button>
+                   </p>
+                </div>
+                <div class="check-result check hidden">
+                    <p class="text"></p>
+                    <button class="redBtn btn" id="closeRes">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"
+        integrity="sha512-57oZ/vW8ANMjR/KQ6Be9v/+/h6bq9/l3f0Oc7vn6qMqyhvPd1cvKBRWWpzu0QoneImqr2SkmO4MSqU+RpHom3Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

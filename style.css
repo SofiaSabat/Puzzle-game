@@ -1,0 +1,211 @@
+@import url(reset.css);
+body{
+}
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: beige;
+}
+.inner-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px  rgb(26, 25, 25);
+
+}
+.timer-box {
+    width: 500px;
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+
+}
+.buttoms-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+}
+#new, #check, #start{
+    width: 120px;
+    padding: 10px;
+    text-transform: capitalize;
+}
+.puzzles-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container{
+    width: 400px;
+    height: 400px;
+    float: left;
+    text-align: center;
+    line-height: 400px;
+}
+.from-container {
+    margin-left: 50px;
+  box-shadow: 0px 0px 10px  rgb(26, 25, 25);
+}
+.to-container {
+  box-shadow: 0px 0px 10px  rgb(26, 25, 25);
+
+}
+
+.picture{
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid white;
+    float: left;
+}
+.pic{
+    width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    overflow: hidden;
+    float: left;
+}
+.emptySpace{
+    width: 100px;
+    height: 100px;
+    border: 1px dashed rgb(177, 72, 72);
+}
+#num-1{
+    background-image: url(img/square.jpg);
+    background-position: 0px 0px;
+}
+#num-2{
+    background-image: url(img/square.jpg);
+    background-position: -100px 0px;
+}
+#num-3{
+    background-image: url(img/square.jpg);
+    background-position: -200px 0px;
+}
+#num-4{
+    background-image: url(img/square.jpg);
+    background-position: -300px 0px;
+}
+#num-5{
+    background-image: url(img/square.jpg);
+    background-position: 0px -100px;
+}
+#num-6{
+    background-image: url(img/square.jpg);
+    background-position: -100px -100px;
+}
+#num-7{
+    background-image: url(img/square.jpg);
+    background-position: -200px -100px;
+}
+#num-8{
+    background-image: url(img/square.jpg);
+    background-position: -300px -100px;
+}
+#num-9{
+    background-image: url(img/square.jpg);
+    background-position: -400px -200px;
+}
+#num-10{
+    background-image: url(img/square.jpg);
+    background-position: -500px -200px;
+}
+#num-11{
+    background-image: url(img/square.jpg);
+    background-position: -600px -200px;
+}
+#num-12{
+    background-image: url(img/square.jpg);
+    background-position: -700px -200px;
+}
+#num-13{
+    background-image: url(img/square.jpg);
+    background-position: -800px -300px;
+}
+#num-14{
+    background-image: url(img/square.jpg);
+    background-position: -900px -300px;
+}
+#num-15{
+    background-image: url(img/square.jpg);
+    background-position: -1000px -300px;
+}
+#num-16{
+    background-image: url(img/square.jpg);
+    background-position: -1100px -300px;
+}
+.modal-box {}
+
+.check{
+    width: 430px;
+    height: 180px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 10px  rgb(26, 25, 25);
+    position: absolute;
+    background-color: #fff;
+    z-index: 5;
+    filter:none
+
+}
+.modal-btn{
+    margin-top: 20px;
+}
+.hidden {
+    display: none;
+}
+.check-have-time {
+}
+.text {
+    font-size: large;
+    margin-bottom: 20px;
+}
+
+.greenBtn {
+    background-color: rgb(20, 104, 18);
+    color: white;
+    border: none;
+    padding: 7px 10px;
+}
+.check-result {
+    position: absolute;
+}
+.btn{
+    color: white;
+    border: none;
+    background-color:  rgb(20, 104, 18);
+    border-radius: 5px;
+}
+.redBtn {
+    background-color: rgb(186, 49, 49);
+    color: white;
+    border: none;
+    padding: 7px 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn:active{
+    transform: scale(0.8);
+}
+.disabled{
+    background-color:  rgb(87, 117, 87);
+}
